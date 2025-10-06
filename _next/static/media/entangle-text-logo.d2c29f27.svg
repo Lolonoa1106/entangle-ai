@@ -1,0 +1,29 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 15" width="111" height="15">
+	<title>New Project</title>
+	<defs>
+		<image  width="9" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMBAMAAABCcoqQAAAAAXNSR0IB2cksfwAAACdQTFRF7+/w7+/x7+/w7+/w7+/w7+/wAAAA7+/w7+/v7e3x7+/w7+/v8PDwasa9PgAAAA10Uk5TwH//q/jhAOhAOOCUxtYVHVMAAAA0SURBVHicY2QAAgFGJSDJx6gkdwDENhFg+MWoFCbAeB0kzmEGIyHiEBKocgNY1zxGkAkbAEkGCr3mvdKSAAAAAElFTkSuQmCC"/>
+		<image  width="10" height="12" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAMAAABstdySAAAAAXNSR0IB2cksfwAAAFpQTFRF8PDw7+/w7e3tAAAA////7+/x7+/w7+/w7+/w6Ojo8PDw7u7u8PDw////7+/v7+/w7+/w7+/x7+/w7+/v7Ozz7+/w7+/x7+/w6+vr7+/w7+/v7+/w7+/x8PDwnZabIQAAAB50Uk5Tt8AcAAeg9P+rC9c81gNy8+3D8h8p/I/uDepgybIyx/D4KgAAAFpJREFUeJw9ytsGgEAYBOAZbZt0USSl3v/NopstOsiynf6VXYb5mCEISm4oamkH/SDxhLKRKa9AZM6ztDnPgodMQsWN78+9XuXkv5VpuASinSPRGSE4TEA/Qn1/Txp/UsZcsgAAAABJRU5ErkJggg=="/>
+		<image  width="11" height="12" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMBAMAAABGh1qtAAAAAXNSR0IB2cksfwAAACdQTFRF8PDw7+/w7+/v7u7x7+/w7e3z7+/w7+/wAAAA////7+/w////7+/vgzKgSAAAAA10Uk5TQ8AfW/8qwfYABtoEo8fP1A0AAAApSURBVHicY2QUYGBg4Gc0AVE8jIyieroL+Bk7GHenPPhBBsXctv3ADwA6JCEdauFn2wAAAABJRU5ErkJggg=="/>
+		<image  width="12" height="12" id="img4" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAIRQTFRFAAAA////7+/w7+/w6+vr8PDw7+/w7+/v7+/w7+/w7+/v7+/w8PDw7e3z8PDw7+/w8/Pz7+/w8PDw7+/x7u7w7+/w////7Ozs7u7w7u7x7+/v7u7w7+/w7+/w7u7w7+/w7+/w8PDw7+/w7+/v7+/v7+/x7u7y7+/w7+/w////7+/v7u7wznbutAAAACx0Uk5TAAW6wBpT/3OvzxD6pypm/hbxhsPI4wEbeVk+e9HKmd3zM55AUJA7rqoDo7lz+DYvAAAAhUlEQVR4nC3L2wqCYBAE4BnCrBADiw4mlReR9P7PkljdKKiVlRcWlUW2/rWwy3ywQwAkwXcdZDU5fP7R+gCN+w8dvpol9ELBfLTJm3FR6BXmySi7PAqGOaz9+Ix+IphkGKT2AaNIMEuhxg4rujEcKeZXTHdchJhvUDfdgN62WvrytQq89RdDKCYOzDiZgQAAAABJRU5ErkJggg=="/>
+		<image  width="11" height="12" id="img5" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAMAAACDd7esAAAAAXNSR0IB2cksfwAAAGZQTFRF6urq7+/w7u7w6+vrAAAA7e3t7+/x7+/v7+/w7+/x8vLy7+/w7+/w7Ozz7+/x8PDw7u7u7+/w8PDw7+/v7+/v7+/w7+/w7u7u7u7w7+/w7+/w6+v17+/w7u7w////7+/w7+/w8PDwiMBwGQAAACJ0Uk5TDMC4DQAcjRD/jia8/CnDVQ/T1uYvu9A8qarRGfV7BdycRjUEyRUAAABhSURBVHicRc7LCkBAAIXhc2JGEk1KouT938rCxiWXEmokM5JZnPoW/+IQBGl2QTAgQA15w3vt8/gNuTsj0NbqRMg94obYOuEKtXyestl0b5/2OcffKAbnkp2x+VC3QNVAPBdvGpvmifqFAAAAAElFTkSuQmCC"/>
+		<image  width="12" height="12" id="img6" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAKhQTFRFAAAA7e3y7+/v7+/w7+/w7+/w7+/w7+/v7+/v7+/w7+/w8PDw8vLy7+/x7+/v8PDw7+/w7u7u7+/w7u7w7+/v7+/x7+/v7+/w////////7+/x9PT07+/v8PDw5ubm7+/w7+/x7+/w7+/w7+/w39//8PDw7+/w7+/w7+/x7+/v8PDw7+/v7+/w7u7u8PDw7+/v7u7w8PDw8PDw7+/w7+/w7+/w7+/v7u7wMNvTOQAAADh0Uk5TADmj2/z6vDBh/v9jJ6CAtfsem2ikfeb0BQbUF0AzCt1dzO74CEXAzbFidUH5TZVxuEKm3uutPpkRlsJRAAAAgklEQVR4nCWOXQvBYACFn3MzFgphljKtRFzI//8hitV8lGZxoUyzXfC+r3Nx6jmdTkeA/vogaMoYVI1CtEuv8qUaz4T9Ev8BgzctMXp1lOGk8En3ykRuaHpneGKWGwhEnIVK5tLFwvJMtIPV0cI6Jb6Nlbgam4Nd+i72Fti6N3XR+wHCKR8sQlorMwAAAABJRU5ErkJggg=="/>
+		<image  width="9" height="12" id="img7" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMBAMAAABCcoqQAAAAAXNSR0IB2cksfwAAAB5QTFRF7+/x7+/w5ubmAAAA7+/x7+/w7e3t7+/x6+v18PDwtOUsJAAAAAp0Uk5Tn8AKANT/DsMZI2OdynkAAAAjSURBVHicY2QUVGT4y+gqeJc0UmgXQz6jqwADgzUjI5DMBwBCgBVN0a2gSgAAAABJRU5ErkJggg=="/>
+		<image  width="9" height="12" id="img8" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMBAMAAABCcoqQAAAAAXNSR0IB2cksfwAAADBQTFRF8PDw7+/w7u7w7+/w7+/w7+/w7u7w8PDw6+vrAAAA8PDw7+/v////9PT07+/w7+/wcBS/mgAAABB0Uk5TlsCpyf/jyMYaAFNABRe+/hAwTvAAAAA1SURBVHicY2QUYGDgZzQBkjyMKY9PgdgigQzfGVOeFTKwgsV7YCRYHCoLVHkeLL6GEWTCeQDtSw9dt5zE7AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 24px;fill: #efeff0;font-weight: 400;font-family: "CarterOne", "Carter One" } 
+	</style>
+	<use id="Layer 3" href="#img1" x="1" y="2"/>
+	<use id="Layer 4" href="#img2" x="11" y="2"/>
+	<use id="Layer 5" href="#img3" x="22" y="2"/>
+	<use id="Layer 6" href="#img4" x="31" y="2"/>
+	<use id="Layer 7" href="#img5" x="42" y="2"/>
+	<use id="Layer 8" href="#img6" x="53" y="2"/>
+	<use id="Layer 9" href="#img7" x="67" y="2"/>
+	<use id="Layer 10" href="#img8" x="77" y="2"/>
+	<text id="AI" style="transform: matrix(.831,0,0,.729,90,14)" >
+		<tspan x="0" y="0" class="t0">A</tspan><tspan  y="0" class="t0">I
+</tspan>
+	</text>
+</svg>

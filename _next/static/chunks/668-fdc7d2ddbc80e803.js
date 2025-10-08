@@ -2902,7 +2902,7 @@
         Q = n(28572);
       let ee = {
           WNGL: "/public/chains/rsz_entangle.png",
-          NGL: "/public/chains/rsz_entangle.png",
+          EAI: "/public/chains/rsz_entangle.png",
           GORPLES: "/public/assets/icons/gorples.png",
           GORPLE: "/public/assets/icons/gorples.png",
         },
@@ -2926,15 +2926,15 @@
             C = (0, o.b)(v?.[t.systemLabel] || 0n, t.decimals).toString(),
             k = u && d.Nb.includes(u),
             N = u === d.m5.TRON.chainId,
-            S = "NGL" === t.tokenValue,
+            S = "EAI" === t.tokenValue,
             M = "GORPLE" === t.tokenValue,
             j = u !== d.pQ.chainId && u !== d.m5.Solana.chainId,
             B = y === p.fx.From && ((!S && !k) || (S && j) || ((S || M) && N)),
             E = f.Fn[t.tokenValue] || 3,
             A = (0, r.useMemo)(
               () =>
-                "NGL" === t.tokenValue
-                  ? `${g ? (0, z.d)((0, q.t)(+g, E), 2) : "0.00"} NGL`
+                "EAI" === t.tokenValue
+                  ? `${g ? (0, z.d)((0, q.t)(+g, E), 2) : "0.00"} EAI`
                   : `${C ? (0, z.d)((0, q.t)(Number(C), E), 2) : "0.00"} ${
                       t.tokenValue
                     }`,
@@ -2951,7 +2951,7 @@
               D &&
               D !== t.tokenValue &&
               !f.$3[t.tokenValue]?.includes(D || ""),
-            F = y === p.fx.From && u === d.ZP.chainId && "NGL" === t.tokenValue,
+            F = y === p.fx.From && u === d.ZP.chainId && "EAI" === t.tokenValue,
             U = (0, r.useCallback)(
               async (e) => {
                 if (N && window.tronWeb)
@@ -3664,7 +3664,7 @@
         eP = n.n(eA);
       let eR = (e) => {
           let { option: t, onClose: n, onClick: a, chainId: i, type: r } = e,
-            o = r === p.fx.From && i === d.ZP.chainId && "NGL" === t.tokenValue;
+            o = r === p.fx.From && i === d.ZP.chainId && "EAI" === t.tokenValue;
           return (0, s.jsx)("button", {
             className: eP().item,
             onClick: o
@@ -4738,7 +4738,7 @@
       };
       var tv = n(34602);
       let { setApproveRequestOpen: tC } = e2.BridgeEntity.actions,
-        tw = { GORPLES: 7500, GORPLE: 7500, NGL: 100, WNGL: 100, USDC: 0.1 };
+        tw = { GORPLES: 7500, GORPLE: 7500, EAI: 100, WNGL: 100, USDC: 0.1 };
       var tk = (0, r.memo)((e) => {
           let {
               className: t,
@@ -5098,7 +5098,7 @@
         },
         t$ = n(12629);
       let tZ = {
-          NGL: "TRrLNWGX9fpNmyE8MW7KpnPhxEHoAtPQXu",
+          EAI: "TRrLNWGX9fpNmyE8MW7KpnPhxEHoAtPQXu",
           GORPLE: "TEVNfiScrfwcn7bwD1YmuK4QBpAgB4JNyH",
           GORPLES: "TEVNfiScrfwcn7bwD1YmuK4QBpAgB4JNyH",
         },
@@ -5356,11 +5356,11 @@
           (e != d.ZP.chainId || t === d.ZP.chainId) &&
           ((e != d.ZP.chainId &&
             t == d.ZP.chainId &&
-            "NGL" == n &&
-            "NGL" == a) ||
+            "EAI" == n &&
+            "EAI" == a) ||
             ((e == d.ZP.chainId ||
               t != d.ZP.chainId ||
-              "NGL" != n ||
+              "EAI" != n ||
               "WNGL" != a) &&
               t === d.ZP.chainId &&
               e === d.m5.Solana.chainId));
@@ -7567,7 +7567,7 @@
                   className: nb().value,
                   children: [
                     (0, s.jsxs)("div", {
-                      children: [G, " ", N?.tokenValue || "NGL"],
+                      children: [G, " ", N?.tokenValue || "EAI"],
                     }),
                     !S &&
                       (0, s.jsxs)("div", {
@@ -9437,7 +9437,7 @@
                     (0, a.jsx)("button", {
                       className: d().amount__max,
                       onClick: () => {
-                        let e = "NGL" === T && C ? (+g - 1).toString() : g;
+                        let e = "EAI" === T && C ? (+g - 1).toString() : g;
                         s && s(+g ? e : "");
                       },
                       children: "Max",
@@ -9646,7 +9646,7 @@
         (u.ErrorEvmWalletNotVerified =
           "Incorrect EVM address. Kindly input correct address to proceed"),
         (u.ErrorAmountInput =
-          "The minimum amount for bridging is 100 NGL / WNGL");
+          "The minimum amount for bridging is 100 EAI / WNGL");
     },
     16011: function (e, t, n) {
       "use strict";

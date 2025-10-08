@@ -172,18 +172,7 @@
                   ],
                 }),
               }),
-              (0, s.jsx)(o.q, {
-                href: "/msg",
-                onCLick: () => {
-                  e(v({ Status: [!1] }));
-                },
-                className: "grow-[2] cursor-pointer",
-                title: (0, s.jsx)("div", { children: "Processing Messages" }),
-                children: (0, s.jsx)(r.q.span, {
-                  className: "text-white text-2xl",
-                  children: j.inflightMessages.to((e) => d.es.format(e)),
-                }),
-              }),
+              ,
               (0, s.jsx)(o.q, {
                 className: "grow-[2]",
                 title: (0, s.jsx)("div", { children: "Total messages" }),
@@ -468,7 +457,7 @@
                           })
                         ),
                       }),
-                      " NGL",
+                      " EAI",
                     ],
                   }),
                 ],
@@ -519,7 +508,7 @@
                     ],
                   }),
                 },
-                { title: "Supply (NGL)", value: e },
+                { title: "Supply (EAI)", value: e },
                 {
                   title: "Total Stake",
                   value: (0, s.jsx)(d.q.span, {

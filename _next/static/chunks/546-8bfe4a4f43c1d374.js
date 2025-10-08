@@ -998,7 +998,7 @@
                           })
                         ),
                       }),
-                      " NGL",
+                      " EAI",
                     ],
                   }),
                 ],
@@ -1049,7 +1049,7 @@
                     ],
                   }),
                 },
-                { title: "Supply (NGL)", value: t },
+                { title: "Supply (EAI)", value: t },
                 {
                   title: "Total Stake",
                   value: (0, o.jsx)(d.q.span, {

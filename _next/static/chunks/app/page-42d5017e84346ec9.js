@@ -5407,7 +5407,7 @@
                       children: [
                         (0, i.jsx)("div", {
                           className: j().name,
-                          children: "Price (NGL)",
+                          children: "Price (EAI)",
                         }),
                         (0, i.jsxs)("div", {
                           className: j().priceWrap,
@@ -5801,7 +5801,7 @@
                     children: [
                       (0, i.jsx)("div", {
                         className: j().name,
-                        children: "staked NGL",
+                        children: "staked EAI",
                       }),
                       (0, i.jsxs)("div", {
                         className: j().priceWrap,
@@ -5847,7 +5847,7 @@
                     children: [
                       (0, i.jsx)("div", {
                         className: j().name,
-                        children: "unstaked NGL",
+                        children: "unstaked EAI",
                       }),
                       (0, i.jsxs)("div", {
                         className: j().priceWrap,
@@ -6086,11 +6086,7 @@
                     className: V().title,
                     children: "Live Messaging",
                   }),
-                  (0, i.jsx)(H.default, {
-                    href: "/msg",
-                    className: V().more,
-                    children: "see more",
-                  }),
+                
                 ],
               }),
             }),

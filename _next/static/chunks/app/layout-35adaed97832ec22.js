@@ -2403,15 +2403,6 @@
                           (0, a.jsxs)(a.Fragment, {
                             children: [
                               (0, a.jsx)(w.J, {}),
-                              (0, a.jsx)(o.default, {
-                                href: "/msg",
-                                children: (0, a.jsx)("div", {
-                                  className: E().toggle,
-                                  children: (0, a.jsx)(L, {
-                                    className: E().dashboardIcon,
-                                  }),
-                                }),
-                              }),
                             ],
                           }),
                         !k &&
@@ -2840,15 +2831,7 @@
                                       searchIconClassName: x().searchIcon,
                                     }),
                                   (0, a.jsx)(w.J, {}),
-                                  (0, a.jsx)(o.default, {
-                                    href: "/msg",
-                                    children: (0, a.jsx)("div", {
-                                      className: x().toggle,
-                                      children: (0, a.jsx)(L, {
-                                        className: x().dashboardIcon,
-                                      }),
-                                    }),
-                                  }),
+                             
                                 ],
                               }),
                             (0, a.jsx)(m.Z, {
@@ -3899,21 +3882,8 @@
               { name: "Params", href: "/params" },
             ],
           },
-          {
-            name: "UIP Messaging",
-            href: "/msg",
-            subRoutes: ["/msg"],
-            subLinks: [
-              { name: "Messages", href: "/msg" },
-              { name: "Agents", href: "/msg/agents" },
-              { name: "Protocols", href: "/msg/protocols" },
-            ],
-          },
-          {
-            name: "Staking",
-            href: "/msg",
-            subRoutes: ["/msg"],
-          },
+       
+         
           
         ],
         i = [
@@ -4333,7 +4303,7 @@
             delegatorName: m,
             loading: p,
           } = e,
-          k = (0, x.R)("NGL"),
+          k = (0, x.R)("EAI"),
           _ = (0, i.useMemo)(() => +t * k, [k, t]);
         return (0, a.jsx)(d.F0, {
           styleBasic: !0,
@@ -4375,7 +4345,7 @@
                   }),
                   (0, a.jsxs)("div", {
                     className: s().value,
-                    children: [t, " NGL"],
+                    children: [t, " EAI"],
                   }),
                   (0, a.jsxs)("div", {
                     className: s().usd,
@@ -5216,7 +5186,7 @@
                           children: [
                             (0, r.jsxs)("div", {
                               className: o().nglBalance,
-                              children: [i, " NGL"],
+                              children: [i, " EAI"],
                             }),
                             (0, r.jsxs)("div", {
                               className: o().usdBalance,
@@ -5400,7 +5370,7 @@
         return (
           (0, u.useEffect)(() => {
             (async () => {
-              let r = t.find((e) => "NGL" === e.tokenValue);
+              let r = t.find((e) => "EAI" === e.tokenValue);
               if (r?.contractAddress && i && e)
                 try {
                   let t = await ei.Y.getTokenBalance(r.contractAddress, i, e),
@@ -5419,7 +5389,7 @@
           let [n, a, i, r, s] = e,
             { totalStaked: o } = q(n),
             { allTokensByChainId: l } = (0, es.e)(),
-            c = (0, W.R)("NGL"),
+            c = (0, W.R)("EAI"),
             { balance: d } = (0, Z.r)(h.ZP.chainId),
             x = er(t, l[t]),
             m = z(a, h.m5.Solana.chainId, l[h.m5.Solana.chainId]),
@@ -5592,7 +5562,7 @@
                                             })
                                           : "0.00",
                                         " ",
-                                        "NGL",
+                                        "EAI",
                                       ],
                                     }),
                                   ],
@@ -5717,7 +5687,7 @@
                                 ),
                                 onClick: a,
                                 children: [
-                                  "NGL",
+                                  "EAI",
                                   (0, r.jsx)(l.default, {
                                     src: V.src,
                                     width: "14",
@@ -6401,7 +6371,7 @@
                 f.useWaitForTransactionReceipt)({ hash: o }),
                 E = (0, g.usePublicClient)({ chainId: D.chainId }),
                 { switchChain: S } = (0, y.useSwitchChain)(),
-                I = (0, N.R)("NGL"),
+                I = (0, N.R)("EAI"),
                 { data: G, refetch: P } = (0, j.K)({}),
                 M = G?.entangle_daily_burn[0],
                 L = (0, s.useCallback)(() => {
@@ -6545,7 +6515,7 @@
                                 (0, r.jsx)("p", {
                                   className: d().subtitle,
                                   children:
-                                    "Burn NGL tokens and help to reduce the supply. Trigger by clicking the Burn button below.",
+                                    "Burn EAI tokens and help to reduce the supply. Trigger by clicking the Burn button below.",
                                 }),
                                 (0, r.jsxs)("div", {
                                   className: l()(d().popoverCard, {
@@ -6592,7 +6562,7 @@
                                   className: d().footer,
                                   children: [
                                     (0, r.jsx)("div", {
-                                      children: "Total in Burn pool (NGL)",
+                                      children: "Total in Burn pool (EAI)",
                                     }),
                                     (0, r.jsxs)("div", {
                                       children: [
@@ -6659,7 +6629,7 @@
                               children: [
                                 "You succesfully burned ",
                                 E || 0,
-                                " NGL tokens.",
+                                " EAI tokens.",
                               ],
                             }),
                             (0, r.jsxs)("div", {

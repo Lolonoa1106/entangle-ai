@@ -5573,8 +5573,7 @@
                                   children: [
                                     (0, r.jsx)(B.default, {
                                       className: o().omnipointsLabel,
-                                      href: "https://omnipoints.entangle.fi/",
-                                      target: "_blank",
+                                      href: "https://app.entanglexplai.xyz/validators",
                                       rel: "noopener noreferrer",
                                       children: (0, r.jsxs)("label", {
                                         className:
@@ -5675,9 +5674,8 @@
                               }),
                             (0, r.jsx)(B.default, {
                               href: eu.Is
-                                ? "https://hub.entangle.fi/wngl"
-                                : "/wngl",
-                              target: eu.Is ? "_blank" : "_self",
+                                ? "https://app.entanglexplai.xyz/validators"
+                                : "/validators",
                               className: o().nglContainer,
                               children: (0, r.jsxs)("span", {
                                 className: d()(
@@ -5694,7 +5692,7 @@
                                     height: "14",
                                     alt: "Wrap link icon",
                                   }),
-                                  "WNGL",
+                                  "XPL",
                                 ],
                               }),
                             }),

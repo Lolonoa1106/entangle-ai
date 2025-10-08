@@ -5700,22 +5700,22 @@
                             }),
                           ],
                         }),
-                        (0, r.jsx)("div", {
-                          children: (0, r.jsxs)(B.default, {
-                            href: eu.Is
-                              ? "/msg/"
-                              : "/msg/",
-                            target: eu.Is ? "_blank" : "_self",
-                            className: o().goToStaking,
-                            onClick: a,
-                            children: [
-                              "Go to Staking",
-                              (0, r.jsx)(H.P, {
-                                className: o().goToStakingIcon,
-                              }),
-                            ],
-                          }),
-                        }),
+                        // (0, r.jsx)("div", {
+                        //   children: (0, r.jsxs)(B.default, {
+                        //     href: eu.Is
+                        //       ? "/msg/"
+                        //       : "/msg/",
+                        //     target: eu.Is ? "_blank" : "_self",
+                        //     className: o().goToStaking,
+                        //     onClick: a,
+                        //     children: [
+                        //       "Go to Staking",
+                        //       (0, r.jsx)(H.P, {
+                        //         className: o().goToStakingIcon,
+                        //       }),
+                        //     ],
+                        //   }),
+                        // }),
                       ],
                     }),
                 ],
